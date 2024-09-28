@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="readme">
+    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="add ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zxc5131210"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zxc5131210&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zxc5131210/crypto.com-homework.git",
-    "accountId": "1b3b928f-b118-4ad6-a5bc-9e19f6b643ee"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zxc5131210/crypto.com-homework.git&quot;,
+    &quot;accountId&quot;: &quot;1b3b928f-b118-4ad6-a5bc-9e19f6b643ee&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -48,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for task1.TestGesture.test_swipe_up.executor": "Run",
-    "Python tests.Python tests for task1.TestGesture.test_task_1.executor": "Run",
-    "Python tests.Python tests for task1.test_swipe_up.executor": "Run",
-    "Python tests.Python tests for test.TestAppiumSwipe.test_swipe_up.executor": "Run",
-    "Python tests.Python tests for test_case.TestCases.test_swipe_up.executor": "Run",
-    "Python tests.Python tests for test_case.TestCases.test_task.executor": "Run",
-    "Python tests.Python tests for test_case.TestCases.test_task_1.executor": "Run",
-    "Python tests.Python tests for ㄔtest.TestAppiumSwipe.test_swipe_up.executor": "Debug",
-    "Python tests.Python tests in task1.py.executor": "Run",
-    "Python tests.Python tests in test.py.executor": "Run",
-    "Python tests.Python tests in test_case.py.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.gesture.executor": "Run",
-    "Python.nine_days_page.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yi-shanwu/PycharmProjects/crypto.com-homework",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for task1.TestGesture.test_swipe_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task1.TestGesture.test_task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for task1.test_swipe_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.TestAppiumSwipe.test_swipe_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case.TestCases.test_swipe_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case.TestCases.test_task.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_case.TestCases.test_task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for ㄔtest.TestAppiumSwipe.test_swipe_up.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in task1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_case.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gesture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nine_days_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yi-shanwu/PycharmProjects/crypto.com-homework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/task2" />
@@ -220,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727515746458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ignore">
+      <option name="closed" value="true" />
+      <created>1727515876407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727515876407</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crypto.com hw" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="add ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ignore" />
   </component>
 </project>
