@@ -1,5 +1,7 @@
 import time
 
+from selenium.common.exceptions import NoSuchFrameException, NoSuchElementException
+
 from pages import agreement_page, main_page, hamburger_page, nine_days_page
 
 import utils
@@ -49,7 +51,8 @@ class Gesture:
         self.driver.swipe(x1, y1, x2, y2, duration)
 
     def screenshot_if_nine_days_later(self):
-        if nine_days_page.nine_days_after_date(self.driver):
-            self.driver.save_screenshot("nine_days_page.png")
-        else:
+        try:
+            if nine_days_page.nine_days_after_date(self.driver):
+                self.driver.save_screenshot("nine_days_page.png")
+        except NoSuchElementException:
             self.logger.error("The nine days page is not available.")

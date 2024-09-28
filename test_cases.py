@@ -1,3 +1,5 @@
+import os
+
 import utils
 from gesture import Gesture
 
@@ -16,7 +18,10 @@ class TestCases:
         for i in range(2):
             self.gesture.scroll_down_the_page()
         self.gesture.screenshot_if_nine_days_later()
+        picture_path = "nine_days_page.png"
 
-
-if __name__ == "__main__":
-    TestCases().task_1()
+        if os.path.isfile(picture_path):
+            print("The screenshot is saved successfully.")
+            return True
+        else:
+            return False
