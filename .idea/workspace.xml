@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="add ignore">
+    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="readme">
+      <change afterPath="$PROJECT_DIR$/task2/postman_proxy_catch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/截圖 2024-09-28 晚上10.32.00.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2/task2.json" beforeDir="false" afterPath="$PROJECT_DIR$/task2/charles_proxy_catch.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727516315105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="readme">
+      <option name="closed" value="true" />
+      <created>1727532293950</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727532293950</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,8 +263,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crypto.com hw" />
-    <MESSAGE value="readme" />
     <MESSAGE value="add ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ignore" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
