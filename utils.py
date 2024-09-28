@@ -1,9 +1,7 @@
 import os
-import time
 
 from datetime import datetime, timedelta
-from venv import logger
-
+from logger import Logger
 from appium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -13,31 +11,27 @@ app_path = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "apk/MyObservatory_5.9_APKPure.apk")
 )
 
+logger = Logger()
+
 
 def connect_driver():
     """
     Connect to the UI Automator2 driver.
     """
-    desired_caps = dict()
-    desired_caps["platformName"] = config.platformName
-    desired_caps["platformVersion"] = config.platformVersion
-    desired_caps["deviceName"] = config.deviceName
-    desired_caps["appPackage"] = config.app_package
-    desired_caps["appActivity"] = config.app_activity
-    desired_caps["app"] = app_path
-
+    desired_caps = {
+        "platformName": config.platformName,  # 或 'iOS'
+        "platformVersion": config.platformVersion,
+        "deviceName": config.deviceName,
+        "appPackage": config.app_package,  # APK 包名
+        "appActivity": config.app_activity,  # APK 啟動活動
+        "app": app_path,  # APK 路徑或應用包名
+        "automationName": "UiAutomator2",
+    }
     driver = webdriver.Remote(
         f"http://{config.host}:{config.port}/wd/hub", desired_caps
     )
-
-    try:
-        driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_caps)
-    except Exception as e:
-        print(f"Error initializing driver: {e}")
-
     WebDriverWait(driver, 2)
     driver.implicitly_wait(config.implicitly_wait_timeout)
-
     return driver
 
 

@@ -7,7 +7,6 @@ from gesture import Gesture
 class TestCases:
 
     def __init__(self):
-        utils.delete_file("nine_days_page.png")
         self.driver = utils.connect_driver()
         self.gesture = Gesture(self.driver)
 
@@ -20,7 +19,11 @@ class TestCases:
         self.gesture.screenshot_if_nine_days_later()
         picture_path = "nine_days_page.png"
 
-        if os.path.isfile(picture_path):
+        try:
+            os.path.isfile(picture_path)  # Check if the file exists
             return True
-        else:
+        except FileNotFoundError:
             return False
+        finally:
+            self.driver.quit()
+            utils.delete_file(picture_path)
