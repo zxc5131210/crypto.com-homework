@@ -21,7 +21,6 @@ class TestCases:
         picture_path = "nine_days_page.png"
 
         if os.path.isfile(picture_path):
-            print("The screenshot is saved successfully.")
             return True
         else:
             return False
