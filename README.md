@@ -22,7 +22,7 @@ Clone this github
 Run Test
 -------------
   	Go to the folder: cd crypto.com-homework
-  	python3 test_cases.py
+  	pytest test_ninth_day_weather.py
 
 Task 1
 -------------
