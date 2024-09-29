@@ -25,7 +25,7 @@ Clone this github
 
 Run Test
 -------------
-  	Go to the folder: cd crypto.com-homework
+  	Go to the folder: cd crypto.com-homework/task1
   	pytest test_ninth_day_weather.py
 
 
@@ -37,6 +37,7 @@ Execute the test_ninth_day_weather.py file to check the ninth day date. If the d
 And print the result and save the received data as json file.
     
 
+    Go to the folder: cd crypto.com-homework/task2
     python3 test_ninth_day_weather.py
 
     
