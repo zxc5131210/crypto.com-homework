@@ -1,6 +1,6 @@
 """nine days page"""
 
-import utils
+from task1 import utils
 
 
 def menu_area(driver):

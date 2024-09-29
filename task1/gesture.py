@@ -1,10 +1,9 @@
 import time
 
-from selenium.common.exceptions import NoSuchFrameException, NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException
 
 from pages import agreement_page, main_page, hamburger_page, nine_days_page
 
-import utils
 from logger import Logger
 
 
