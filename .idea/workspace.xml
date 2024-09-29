@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="更新邏輯">
-      <change afterPath="$PROJECT_DIR$/task2/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/test_the_day_after_tomorrow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task2/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ae973352-f2b3-4d95-bbdd-e806214cc338" name="Changes" comment="change the task2 answer">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apk/MyObservatory_5.9_APKPure.apk" beforeDir="false" afterPath="$PROJECT_DIR$/task1/apk/MyObservatory_5.9_APKPure.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesture.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/gesture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/agreement_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/pages/agreement_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/hamburger_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/pages/hamburger_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nine_days_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/pages/nine_days_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task1/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/charles_proxy_catch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/postman_proxy_catch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午4.48.11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午4.48.44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午4.48.55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午5.06.45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午5.07.02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 下午5.07.12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 晚上10.32.00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/截圖 2024-09-28 晚上10.40.18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/test_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_ninth_day_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/test_ninth_day_weather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727544875819</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change the task2 answer">
+      <option name="closed" value="true" />
+      <created>1727629380710</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727629380710</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,6 +325,7 @@
     <MESSAGE value="add pytest framework design" />
     <MESSAGE value="rewrite readme" />
     <MESSAGE value="更新邏輯" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新邏輯" />
+    <MESSAGE value="change the task2 answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the task2 answer" />
   </component>
 </project>
